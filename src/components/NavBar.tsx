@@ -35,7 +35,7 @@ const NavBar: React.FC = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="brand">
-          My<span className="accent">Portfolio</span>
+          <span className="accent">Grum</span>
         </div>
 
         <nav className={`navlinks ${open ? 'open' : ''}`}>
