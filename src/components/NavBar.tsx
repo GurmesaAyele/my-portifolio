@@ -24,12 +24,15 @@ const NavBar: React.FC = () => {
   }, [location])
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/services', label: 'Services' },
-    { path: '/contact', label: 'Contact' }
-  ]
+  { path: '/', label: 'Home' },
+  { path: '/about', label: 'About' },
+  { path: '/projects', label: 'Projects' },
+  { path: '/services', label: 'Services' },
+  { path: '/certifications', label: 'Certifications' },
+  { path: '/skills', label: 'Skills' },
+  { path: '/contact', label: 'Contact' }
+]
+
 
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
